@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "Deeptadeep "
-title_right   : "Roy" # default: ""
+title_left    : "deeptadeeproy"
+title_right   : ".github.io" # default: ""
 description   : "Python and iOS developer."
 keywords      : "developer, python, iOS, portfolio, apple, blog, web, minimalist, thinkspace"
 url           : https://deeptadeeproy.github.io # site url
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Deeptadeep Roy"
 
 plugins:
   - jekyll-sitemap
