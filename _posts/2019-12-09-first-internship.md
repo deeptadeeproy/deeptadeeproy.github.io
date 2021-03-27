@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My first internship"
+title: "Internship"
 comments: true
 description: "Intership"
 keywords: "First Internship"
