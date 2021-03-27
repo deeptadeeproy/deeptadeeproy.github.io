@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning python.."
+title: "Python.."
 comments: true
 description: "Learning python in 2020.."
 keywords: "dummy content"
