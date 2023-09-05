@@ -1,8 +1,8 @@
 # Site settings
 title_left    : "deeptadeeproy"
 title_right   : ".github.io" # default: ""
-description   : "Python and iOS developer."
-keywords      : "developer, python, iOS, portfolio, apple, blog, web, minimalist, thinkspace"
+description   : "Full Stack Professional with strong knowledge of Angular JS and Java"
+keywords      : "developer, python, Java, Javascript, Angular, iOS, portfolio, apple, blog, web, minimalist, thinkspace"
 url           : https://deeptadeeproy.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
