@@ -51,7 +51,9 @@ function Contact() {
         <p>&lt;Contact&gt;</p>
         <div className="contact-block">
           <h4>
-            Please feel free to reach out to me via email, phone, LinkedIn or the cantact form.
+            Please feel free to reach out to me via email, phone,
+            <br/>
+            LinkedIn or the cantact form.
             Let's build something awesome!
             <br />
             I will respond as soon as possible.
