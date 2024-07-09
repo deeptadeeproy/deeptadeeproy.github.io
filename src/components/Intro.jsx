@@ -4,8 +4,9 @@ import AdvantageBox from "./AdvantageBox";
 import advArr, { skills, skillIcons } from "../assets/advantages";
 import "../App.css";
 
+
 function Introduction(props) {
-  const playHoverSound = useSound("/assets/sci-fi-hover.wav");
+  const playHoverSound = useSound("./sci-fi-hover.wav");
 
   return (
     <div

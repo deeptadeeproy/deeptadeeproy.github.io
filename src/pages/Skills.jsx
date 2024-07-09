@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "../Content";
+import Content from "../components/Content";
 
 function Skills() {
   const introText = "Skills I possess as a specialist";

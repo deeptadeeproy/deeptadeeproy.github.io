@@ -3,7 +3,7 @@ import useSound from "../utils/useSound";
 import emailjs from "emailjs-com";
 
 function ContactForm() {
-  const playHoverSound = useSound("/assets/sci-fi-hover.wav");
+  const playHoverSound = useSound("./sci-fi-hover.wav");
 
   const [formData, setFormData] = useState({
     name: "",

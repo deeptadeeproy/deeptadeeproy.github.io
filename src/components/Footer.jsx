@@ -6,11 +6,11 @@ import "../App.css";
 function Footer() {
   const socialImgs = [
     {
-      img: "/assets/github.svg",
+      img: "images/github.svg",
       link: "https://github.com/deeptadeeproy",
     },
     {
-      img: "/assets/linkedin.svg",
+      img: "images/linkedin.svg",
       link: "https://www.linkedin.com/in/deeptadeeproy/",
     },
   ];

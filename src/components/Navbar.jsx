@@ -16,7 +16,7 @@ function Navbar() {
         top: element.offsetTop,
         behavior: "smooth",
       });
-      window.history.pushState({}, '', `#${id}`);
+      window.history.pushState({}, "", `#${id}`);
     }
   };
 
@@ -24,13 +24,13 @@ function Navbar() {
     const sections = document.querySelectorAll("section");
     const options = {
       root: null,
-      threshold: 0.5, // Adjust as needed
+      threshold: 0.5,
     };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          window.history.pushState({}, '', `#${entry.target.id}`);
+          window.history.pushState({}, "", `#${entry.target.id}`);
         }
       });
     }, options);
