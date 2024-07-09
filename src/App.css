@@ -111,6 +111,7 @@ body {
     height: 80%;
     color: white;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .intro-div {
@@ -163,7 +164,7 @@ body {
     }
 
     .particle-sphere {
-        height: 80% !important;
+        height: 70% !important;
     }
 
 }
@@ -207,9 +208,16 @@ body {
 
 .particle-sphere {
     z-index: -100;
-    display: grid;
+    display: flex;
     height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
+}
+
+.particle-sphere label {
+    margin: 0px;
 }
 
 canvas {
@@ -375,4 +383,9 @@ canvas {
     left: 10px;
     font-size: 14px;
     color: #bababa;
+}
+
+.whatsapp-qr {
+    height: 50%;
+    width: 100%;
 }

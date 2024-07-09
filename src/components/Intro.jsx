@@ -40,7 +40,7 @@ function Introduction(props) {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <div style={{ display: "ruby", width: "30%" }}>
+            <div style={{ display: "ruby", width: "30%", zIndex: "-1"}}>
               {skillIcons.map((icon, index) => (
                 <img key={index} className="skill-icon" src={icon}></img>
               ))}

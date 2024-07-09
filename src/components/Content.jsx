@@ -1,9 +1,7 @@
 import React from "react";
 import "../App.css";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import Introduction from "./Intro";
-import ParticlePoints from "./ParticlePoints";
+
 
 function Content(props) {
 
@@ -18,11 +16,8 @@ function Content(props) {
         ></Introduction>
         {props.page === "home" ? (
           <div className="particle-sphere">
-            <div className="aura" />
-            <Canvas camera={{ position: [0, 0, 3] }}>
-              <OrbitControls enableZoom={false} />
-              <ParticlePoints />
-            </Canvas>
+            <img className="whatsapp-qr" src="public/images/wa_qr.png"></img>
+            <label>SCAN TO CONNECT</label>
           </div>
         ) : null}
       </div>
