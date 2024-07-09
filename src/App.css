@@ -218,10 +218,6 @@ body {
     position: relative;
 }
 
-.particle-sphere label {
-    margin: 0px;
-}
-
 /* End Particle Sphere Styling */
 
 .socialLinkImg {
@@ -236,7 +232,7 @@ body {
 
 .aura {
     background: radial-gradient(circle,
-            rgba(231, 180, 84, 0.4) 0%,
+            rgba(231, 180, 84, 0.2) 0%,
             rgba(153, 112, 255, 0) 66%);
 }
 

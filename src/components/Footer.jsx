@@ -13,6 +13,10 @@ function Footer() {
       img: "images/linkedin.svg",
       link: "https://www.linkedin.com/in/deeptadeeproy/",
     },
+    {
+      img: "images/whatsapp.svg",
+      link: "https://wa.me/919073840430",
+    }
   ];
 
   return (
