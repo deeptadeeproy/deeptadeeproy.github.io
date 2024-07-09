@@ -172,7 +172,8 @@ body {
 }
 
 .intro-skills {
-    width: 100%
+    width: 100%;
+    height: 95%
 }
 
 .intro-div p {
