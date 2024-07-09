@@ -1,10 +1,9 @@
-import React, {useState}from "react";
+import React, { useState } from "react";
 import useSound from "../utils/useSound";
-import emailjs from 'emailjs-com';
-
+import emailjs from "emailjs-com";
 
 function ContactForm() {
-  const playHoverSound = useSound("src/assets/sci-fi-hover.wav");
+  const playHoverSound = useSound("/assets/sci-fi-hover.wav");
 
   const [formData, setFormData] = useState({
     name: "",
@@ -28,7 +27,7 @@ function ContactForm() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        import.meta.env.VITE_EMAILJS_USER_ID
+        import.meta.env.VITE_EMAILJS_USER_ID,
       );
       console.log("EmailJS Response:", response);
       alert("Your mail is sent!");

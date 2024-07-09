@@ -8,11 +8,7 @@ function MailButton() {
   }
   return (
     <div className="mail-btn" onClick={openMailClient}>
-      <img
-        src="src/assets/email.svg"
-        className="mail-icon"
-        alt="mail img"
-      ></img>
+      <img src="/assets/email.svg" className="mail-icon" alt="mail img"></img>
       <p>Email Me</p>
     </div>
   );

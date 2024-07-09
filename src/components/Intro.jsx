@@ -5,7 +5,7 @@ import advArr, { skills, skillIcons } from "../assets/advantages";
 import "../App.css";
 
 function Introduction(props) {
-  const playHoverSound = useSound("src/assets/sci-fi-hover.wav");
+  const playHoverSound = useSound("/assets/sci-fi-hover.wav");
 
   return (
     <div
@@ -39,7 +39,7 @@ function Introduction(props) {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <div style={{ display: "ruby", width: "30%"}}>
+            <div style={{ display: "ruby", width: "30%" }}>
               {skillIcons.map((icon, index) => (
                 <img key={index} className="skill-icon" src={icon}></img>
               ))}
@@ -47,9 +47,7 @@ function Introduction(props) {
           </div>
 
           <p style={{ marginTop: "10px" }}>&lt;Advantages&gt;</p>
-          <div
-            className="advantages-div"
-          >
+          <div className="advantages-div">
             {advArr.map((adv, index) => (
               <AdvantageBox
                 key={index}
