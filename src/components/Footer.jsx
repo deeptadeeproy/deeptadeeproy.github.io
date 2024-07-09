@@ -13,15 +13,14 @@ function Footer() {
       img: "images/linkedin.svg",
       link: "https://www.linkedin.com/in/deeptadeeproy/",
     },
-    {
-      img: "images/whatsapp.svg",
-      link: "https://wa.me/919073840430",
-    }
   ];
 
   return (
     <div className="footer">
       <MailButton></MailButton>
+      <a className="whatsapp-icon">
+        <img src="images/whatsapp.svg" className="mail-icon" alt="mail img"></img>
+      </a>
       <div>
         {socialImgs.map((item, index) => (
           <SocialLink key={index} imgSrc={item.img} imgLink={item.link} />
