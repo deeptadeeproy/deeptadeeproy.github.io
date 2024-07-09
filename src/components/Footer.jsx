@@ -18,7 +18,7 @@ function Footer() {
   return (
     <div className="footer">
       <MailButton></MailButton>
-      <a className="whatsapp-icon">
+      <a className="whatsapp-icon" href="https://wa.me/919073840430">
         <img src="images/whatsapp.svg" className="mail-icon" alt="mail img"></img>
       </a>
       <div>
