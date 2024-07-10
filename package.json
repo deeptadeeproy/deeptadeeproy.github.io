@@ -5,12 +5,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "dev": "bun run vite",
+    "start": "bun run vite",
+    "build": "bun run vite build",
+    "test": "bun run test",
+    "lint": "bun run eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "bun run vite preview",
+    "pre-deploy": "bun run vite build",
+    "deploy": "bun run gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -29,6 +31,11 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
-    "vite": "^5.3.3"
-  }
+    "vite": "^5.3.3",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "module": "index.ts"
 }
